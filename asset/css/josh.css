@@ -5,3 +5,97 @@
   [data-component="slideshow"] .slide.active {
     display: block;
   }
+
+  .navbar a{
+  	color: #fff;
+  	padding: 5px;
+  	text-transform: uppercase;
+  	font-weight: 600;
+  }
+
+	
+  a:hover{
+  	color: #333;
+  	text-decoration: none;
+  }
+
+.exhibition-cover{
+	padding: 20px;
+	box-shadow: 1px 2px 3px 2px #999;
+	border-radius: 3px;
+}
+
+.exhibition-image{
+	/*width: 180px;*/
+}
+
+.exhibition-title{
+	padding: 4px;
+}
+
+.exhibition-body{
+	border-top: 1px dashed #888;
+	padding: 15px;
+}
+
+.exhibition-url{
+	border-top: 1px dashed #888;
+	padding-top: 15px;
+}
+
+.exhibition-url a{
+	box-shadow: 2px 2px 1px 1px #999;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.exhibition-url a:hover{
+	box-shadow: 1px 1px 1px 1px #999;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.img-bg1,.img-bg2, .img-bg3, .img-bg4{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.img-bg1{
+	background-image: url("../img/Compiler.jpg");
+	height: 80%;
+	padding: 10%;
+}
+
+.img-bg2{
+	background-image: url("../img/Compiler1.jpg");
+	height: 80%;
+	padding: 10%;
+}
+
+.img-bg3{
+	background-image: url("../img/Compiler2.jpg");
+	height: 80%;
+	padding: 10%;
+}
+
+.img-bg4{
+	background-image: url("../img/Compiler3.jpg");
+	height: 80%;
+	padding: 10%;
+}
+
+
+.footer{
+	background-color: #ccc;
+	color: #555;
+	padding: 10px;
+	font-weight: 500;
+}
+
+ /* @media only screen(min-width: 1203px;){
+  	.slide img{
+  		
+  	}
+  }*/
