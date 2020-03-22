@@ -1,3 +1,7 @@
+body{
+	background-color: #cccccc40;
+}
+
 [data-component="slideshow"] .slide {
     display: none;
   }
@@ -23,7 +27,7 @@
   }
 	
   a:hover{
-  	color: #ffff00;
+  	color: #666;
   	text-decoration: none;
   }
 
@@ -108,10 +112,35 @@
 #messageForm label{
 	font-size: 18px;
 	color: #000;
-	font-weight: 500;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.section{
+	padding: 5%;
+}
+
+.listing{
+	margin-top: 2%;
+	list-style-type: none;
 }
  /* @media only screen(min-width: 1203px;){
   	.slide img{
   		
   	}
   }*/
+
+.goUp{
+	float: right;
+	overflow: auto;
+	padding: 15px;
+	border: 3px solid green;
+	border-radius: 80%;
+	background-color: yellow;
+	padding: 15px;
+}
+
+.goUp:hover{
+	border: 3px solid green;
+	background-color: #fff;
+}

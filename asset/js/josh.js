@@ -23,3 +23,27 @@
 
     }, time);
   }
+
+$("document").ready(function(){
+  var scrolled = 0;
+  $(window).scroll(function(event){
+   var st = $(this).scrollTop();
+   if (st > scrolled){
+       // downscroll code
+       
+   } else {
+      // upscroll code
+      $(".goUp").show(1000).on("click" ,function(){
+      scrolled = scrolled - 300;
+        $(".goUp").animate({
+          scrollTop:  scrolled
+     });
+       console.log("Scroll up");
+   });
+
+   }
+   scrolled = st;
+});
+
+
+});
