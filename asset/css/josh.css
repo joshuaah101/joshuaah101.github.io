@@ -77,20 +77,20 @@ body{
 
 .img-bg1{
 	background-image: url("../img/bg3.jpg");
-	height: 80%;
+	height: 150px;
 	padding: 10%;
 }
 
 
 .img-bg2{
 	background-image: url("../img/bg2.jpg");
-	height: 80%;
+	height: 150px;
 	padding: 10%;
 }
 
 .img-bg3{
 	background-image: url("../img/bg1.jpg");
-	height: 80%;
+	height: 150px;
 	padding: 10%;
 }
 
