@@ -77,26 +77,26 @@ body{
 
 .img-bg1{
 	background-image: url("../img/bg3.jpg");
-	height: 50%;
+	height: 80%;
 	padding: 10%;
 }
 
 
 .img-bg2{
 	background-image: url("../img/bg2.jpg");
-	height: 50%;
+	height: 80%;
 	padding: 10%;
 }
 
 .img-bg3{
 	background-image: url("../img/bg1.jpg");
-	height: 50%;
+	height: 80%;
 	padding: 10%;
 }
 
 .img-bg4{
 	background-image: url("../img/bg.jpg");
-	height: 50%;
+	height: 80%;
 	padding: 5%;
 }
 
