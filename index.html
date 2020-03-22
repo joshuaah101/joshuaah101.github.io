@@ -28,16 +28,16 @@
         <a class="nav-link active" href="index.html"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fas fa-info"></i> about</a>
+        <a class="nav-link" href="#about"><i class="fas fa-info"></i> about</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fas fa-briefcase"></i> portfolio</a>
+        <a class="nav-link" href="#portfolio"><i class="fas fa-briefcase"></i> portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fas fa-envelope"></i> message</a>
+        <a class="nav-link" href="#message"><i class="fas fa-envelope"></i> message</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> login</a>
+        <a class="nav-link" href="#login"><i class="fas fa-sign-in-alt"></i> login</a>
       </li>
     </ul>
     
@@ -131,6 +131,21 @@
 
 <div class="img-bg1">
 	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
 		<div class="col-md-12">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -144,42 +159,79 @@
 
 <div class="img-bg2">
 	<div class="container">
-		<div class="col-md-12">
+		<div class="row">
+			<div class="col-md-12">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
 		</div>
 	</div>
 </div>
 
 <div class="img-bg3">
 	<div class="container">
-		<div class="col-md-12">
+		<div class="row">
+			<div class="col-md-12">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
 		</div>
 	</div>
 </div>
 
 <div class="img-bg4">
 	<div class="container">
-		<div class="col-md-12">
-			<div class="h3 text-center mt-5">
-				THANKS FOR STOPPING BY, SITE STILL UNDER CONSTRUCTION
+		<div class="row" id="message">
+			<div class="col-md-12">
+				<div class="h1 mb-5"><i class="fas fa-envelope"></i> Contact us:</div>
+				<form action="" method="post" id="messageForm">
+					<div class="row">
+						<div class="col-md-6 animated slideInLeft slower">
+							<div class="form-group">
+								<label for="fname">First Name: </label>
+								<input type="text" name="senderFirstname" placeholder="First Name" required="" class="form-control form-control-lg" id="fname">
+							</div>
+							<div class="form-group">
+								<label for="lname">Last Name: </label>
+								<input type="text" name="senderLastname" placeholder="Last Name" required="" class="form-control form-control-lg" id="lname">
+							</div>
+							<div class="form-group">
+								<label for="email">E-mail: </label>
+								<input type="email" name="senderEmail" placeholder="Eg. Example@something.com" required="" class="form-control form-control-lg" id="email">
+							</div>
+						</div>
+						<div class="col-md-6 animated slideInRight slower">
+							<div class="form-group">
+								<label for="phone">Phone Number: </label>
+								<input type="text" name="senderPhone" placeholder="Phone Number" required="" class="form-control form-control-lg" id="phone">
+							</div>
+							<div class="form-group">
+								<label for="msg">Message: </label>
+								<textarea name="senderMessage" class="form-control form-control-lg" required="" id="msg" placeholder="Your message here..." rows="4"></textarea>
+							</div>
+						</div>
+						<div class="col-md-6 offset-md-3 animated bounceInUp slower">
+							<button class="btn btn-success btn-block form-control-lg" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+						</div>
+						<div class="mt-2 col-md-6 offset-md-3 animated bounceInUp slower">
+							<div class="messageNotification"></div>
+						</div>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
 </div>
+<div class="mt-2"></div>
 
-<!-- <div class="mb-5"></div> -->
-<hr>
 <div class="footer">
 	<div class="container">
 		<div class="row">
@@ -191,6 +243,7 @@
 		</div>
 	</div>
 </div>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
