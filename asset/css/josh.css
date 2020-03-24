@@ -1,5 +1,5 @@
 body{
-	background-color: #cccccc40;
+	background-color: #fff;
 }
 
 [data-component="slideshow"] .slide {
@@ -96,17 +96,18 @@ body{
 
 .img-bg4{
 	background-image: url("../img/bg.jpg");
-	height: 80%;
+	height: 200px;
 	padding: 5%;
 }
 
 
 .footer{
-	color: #000;
+	color: #fff;
 	font-style: italic;
 	font-size: 14px;
 	padding: 2%;
 	font-weight: 500;
+	background-color: #1a381c;
 }
 
 #messageForm label{
