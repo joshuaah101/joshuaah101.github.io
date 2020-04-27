@@ -1,147 +1,21 @@
 body{
-	background-color: #fff;
+	font-family: helvetica;
+	background-color: #ccc;
 }
 
-[data-component="slideshow"] .slide {
-    display: none;
-  }
-
-  [data-component="slideshow"] .slide.active {
-    display: block;
-  }
-
-  .navbar-light .navbar-nav .nav-link{
-  	color: #000;
-  	text-transform: uppercase;
-  	font-weight: 600;
-  }
-
-.navbar-light .navbar-nav .nav-link.active{
-  	color: #555;
-  	border-bottom: 3px solid #caca00;
-  	
-}
-
-  .navbar-light .navbar-nav .nav-link:hover{
-  	border-bottom: 3px solid #33cc33;
-  }
-	
-  a:hover{
-  	color: #666;
-  	text-decoration: none;
-  }
-
-.exhibition-cover{
-	padding: 10px;
-}
-
-.exhibition-image img{
-	width: 150px;
-	border-radius: 100%;
-	padding: 5px;
-	border: 2px dashed #333;
-}
-
-.exhibition-title{
-	padding: 4px;
-}
-
-.exhibition-body{
-	border-top: 1px dashed #888;
-	padding: 15px;
-}
-
-.exhibition-url{
-	border-top: 1px dashed #888;
-	padding-top: 15px;
-}
-
-.exhibition-url a{
-	box-shadow: 2px 2px 1px 1px #999;
-	border-radius: 3px;
-	padding: 10px;
-}
-
-.exhibition-url a:hover{
-	box-shadow: 1px 1px 1px 1px #999;
-	border-radius: 3px;
-	padding: 10px;
-}
-
-.img-bg1,.img-bg2, .img-bg3, .img-bg4, .img-bg{
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
-}
-
-.img-bg1{
-	background-image: url("../img/bg3.jpg");
-	height: 200px;
-	padding: 10%;
-}
-
-
-.img-bg2{
-	background-image: url("../img/bg2.jpg");
-	height: 200px;
-	padding: 10%;
-}
-
-.img-bg3{
-	background-image: url("../img/bg1.jpg");
-	height: 200px;
-	padding: 10%;
-}
-
-.img-bg4{
-	background-image: url("../img/bg.jpg");
-	height: 200px;
-	padding: 5%;
-}
-
-
-.footer{
-	color: #fff;
-	font-style: italic;
-	font-size: 14px;
-	padding: 2%;
-	font-weight: 500;
-	background-color: #1a381c;
-}
-
-#messageForm label{
-	font-size: 18px;
-	color: #000;
-	font-weight: 600;
-	font-style: italic;
-}
-
-.section{
-	padding: 5%;
-}
-
-.listing{
-	margin-top: 2%;
+.info{
 	list-style-type: none;
-}
- /* @media only screen(min-width: 1203px;){
-  	.slide img{
-  		
-  	}
-  }*/
-
-.goUp{
-	float: right;
-	overflow: auto;
-	padding: 15px;
-	border: 3px solid green;
-	border-radius: 80%;
-	background-color: yellow;
-	padding: 15px;
+	border: 0px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 2px 2px 0px 2px #888;
+	padding: 2%;
+	color: #444;
+	font-weight: 600;
+	font-size: 16px;
 }
 
-.goUp:hover{
-	border: 3px solid green;
-	background-color: #fff;
+.pix{
+	background-color: #888;
+	padding: 2px;
+	z-index: 10;
 }
